@@ -14,6 +14,7 @@
 		BD30F09D2C57D6F00065FCD1 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30F09C2C57D6F00065FCD1 /* SecondContentView.swift */; };
 		BD30F09F2C57D8160065FCD1 /* ThirdContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30F09E2C57D8160065FCD1 /* ThirdContentView.swift */; };
 		BD30F0A12C57D8BE0065FCD1 /* FourthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30F0A02C57D8BE0065FCD1 /* FourthContentView.swift */; };
+		BDAD1C582C592EA30074694D /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAD1C572C592EA30074694D /* TitleScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BD30F09C2C57D6F00065FCD1 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 		BD30F09E2C57D8160065FCD1 /* ThirdContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdContentView.swift; sourceTree = "<group>"; };
 		BD30F0A02C57D8BE0065FCD1 /* FourthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthContentView.swift; sourceTree = "<group>"; };
+		BDAD1C572C592EA30074694D /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				BD30F08E2C57D3DC0065FCD1 /* KWKDAY6QuestionappApp.swift */,
+				BDAD1C572C592EA30074694D /* TitleScreen.swift */,
 				BD30F0902C57D3DC0065FCD1 /* ContentView.swift */,
 				BD30F09C2C57D6F00065FCD1 /* SecondContentView.swift */,
 				BD30F09E2C57D8160065FCD1 /* ThirdContentView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				BD30F0912C57D3DC0065FCD1 /* ContentView.swift in Sources */,
 				BD30F09D2C57D6F00065FCD1 /* SecondContentView.swift in Sources */,
+				BDAD1C582C592EA30074694D /* TitleScreen.swift in Sources */,
 				BD30F09F2C57D8160065FCD1 /* ThirdContentView.swift in Sources */,
 				BD30F08F2C57D3DC0065FCD1 /* KWKDAY6QuestionappApp.swift in Sources */,
 				BD30F0A12C57D8BE0065FCD1 /* FourthContentView.swift in Sources */,

@@ -8,36 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
-@State private var answer = ""
     var body: some View {
-      
         NavigationStack {
             ZStack {
-                Color(.yellowish)
+                Color(.systemGray5)
                     .ignoresSafeArea()
                 VStack(spacing:75) {
-                    Text("What operating system do you use?")
-                        .font(.title)
+                    
+                    Text("Question App")
+                        .font(.largeTitle)
                         .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                    Button("Apple") {
-                        answer = "Apple is great for graphic design."
+                    Image("Image 1")
+                        .cornerRadius(15)
+                    
+                        .padding(.horizontal, 10.0)
+                    Text("By Rachel Auguste")
+                        .font(.headline)
+    
+                        NavigationLink(destination: TitleScreen()) {Text( "Start")}
+                  
+                            .font(.subheadline)
+                            .foregroundColor(Color.black)
+                            .padding()
+                    .background( Rectangle() .foregroundColor(.white))
+                    .cornerRadius(17)
+                      
                     }
-                    Button("Windows") {
-                        answer = "Good choice! Windows is pretty versatile."
-                    }
-                    Button("Linux") {
-                        answer = "Goated answer."
-                    }
-                    Text(answer)
-                        .font(.title3)
-                        .multilineTextAlignment(.center)
-                    NavigationLink(destination: SecondContentView()) {Text( "Next Question")}
+                    
                 }
             }
         }
     }
-}
+    
+
 
 #Preview {
     ContentView()

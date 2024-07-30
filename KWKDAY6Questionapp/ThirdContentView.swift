@@ -23,16 +23,28 @@ struct ThirdContentView: View {
                     Button("Yes") {
                         answerThree = "Wow!"
                     }
+                    .padding()
+                    .background( Rectangle() .foregroundColor(.white))
+                    .cornerRadius(17)
                     Button("Maybe") {
                         answerThree = "Alright then."
                     }
+                    .padding()
+                    .background( Rectangle() .foregroundColor(.white))
+                    .cornerRadius(17)
                     Button("Nope") {
-                        answerThree = "That's okay"
+                        answerThree = "I love your loyalty."
                     }
+                    .padding()
+                    .background( Rectangle() .foregroundColor(.white))
+                    .cornerRadius(17)
                     Text(answerThree)
                         .font(.title3)
                         .multilineTextAlignment(.center)
-                    NavigationLink(destination: ContentView()) {Text( "End!")}
+                    NavigationLink(destination: FourthContentView()) {Text( "End!")}
+                        .padding()
+                        .background( Rectangle() .foregroundColor(.white))
+                        .cornerRadius(17)
                 }
             }
         }

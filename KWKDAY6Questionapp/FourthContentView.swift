@@ -19,6 +19,9 @@ struct FourthContentView: View {
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                     NavigationLink(destination: ContentView()) {Text("Restart!")}
+                        .padding()
+                        .background( Rectangle() .foregroundColor(.white))
+                        .cornerRadius(17)
                 }
             }
         }
