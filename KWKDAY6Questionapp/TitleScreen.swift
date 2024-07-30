@@ -3,7 +3,7 @@
 //  KWKDAY6Questionapp
 //
 //  Created by Scholar on 7/30/24.
-//
+//This is called title screen but it's not the title screen, its an error i cant fix it lolll
 
 import SwiftUI
 
